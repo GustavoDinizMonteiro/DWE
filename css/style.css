@@ -1,0 +1,127 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: #C0944A !important;
+    color: #FFF;
+    padding: 8%;
+}
+
+nav {
+    background-color: black;
+    text-align: center
+}
+
+nav button{
+    background-color: black;
+    color: white;
+    border: 1px solid #C0944A;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+nav button img{
+    margin-right: 3px;
+}
+
+nav button:hover{
+    background-color: #C0944A;
+    color: white;
+}
+
+.carousel-caption{
+    text-align: right !important;
+}
+
+.carousel-caption h5 span {
+    background-color: #212121;
+    padding: 5px;
+}
+
+.carousel-caption h4 span {
+    background-color:rgba(255, 255, 255, .7);
+    padding: 5px;
+    color: #212121;
+}
+
+.jumbotron h1{
+    font-size: 24px;
+}
+
+.jumbotron .lead{
+    font-size: 16px !important;
+}
+
+.jumbotron img{
+    margin-bottom: 3%;
+}
+
+footer{
+    padding: 5%;
+    background-image: url('../assets/img/footer-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer img{
+    margin: 25%;
+}
+
+.pic {
+    height: 65px;
+}
+
+.features{
+    text-align: center;
+    padding: 5%;
+}
+
+.features h1{
+    margin-bottom: 5%;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.features .feature-desc{
+    font-size: 14px;
+}
+
+@media all and (max-width: 480px) {
+
+    nav .logo{
+        width: 110px;
+    }
+
+    nav button{
+        font-size: 12px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .pic{
+        height: 100px;
+    }
+
+    .features h1{
+        margin-bottom: 150px;
+    }
+
+    .features .col-sm{
+        margin-top: -100px;
+    }
+    
+}
