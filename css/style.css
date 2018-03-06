@@ -48,6 +48,16 @@ nav button:hover{
     padding: 5px;
 }
 
+.carousel-caption h5{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.carousel-caption h4{
+    font-size: 46px;
+    font-weight: 300;
+}
+
 .carousel-caption h4 span {
     background-color:rgba(255, 255, 255, .7);
     padding: 5px;
@@ -71,6 +81,7 @@ footer{
     background-image: url('../assets/img/footer-background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 footer img{
